@@ -1,13 +1,13 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
-    accessToken: 'YOUR_ACCESS_TOKEN',
-    showMarkers: true,
-    theme: 'light',
+    style: 'mapbox://styles/materialepidemiology/ck67895mv05fr1ilqdjjrdjog',
+    accessToken: 'pk.eyJ1IjoibWF0ZXJpYWxlcGlkZW1pb2xvZ3kiLCJhIjoiY2s2Nzd5ZHY2MXNlMTNlbW03d2Y2cTgwbSJ9.G1wCOq_NCYYPX36xn_1rtg',
+    showMarkers: false,
+    theme: 'dark',
     alignment: 'left',
-    title: 'The Title Text of this Story',
+    title: 'Material Epidemiology',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
-    footer: 'Source: source citations, etc.',
+    byline: '',
+    footer: 'Credits: Jeana Ripple (Associate Professor of Architecture, University of Virginia), Andrea Hansen Phillips (Assistant Professor of Landscape Architecture, University of Virginia)',
     chapters: [
         {
             id: 'slug-style-id',
@@ -15,9 +15,9 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 13.5,
-                pitch: 60,
+                center: [-74.014, 40.653],
+                zoom: 10,
+                pitch: 0,
                 bearing: 0
             },
             onChapterEnter: [
@@ -49,5 +49,3 @@ var config = {
         }
     ]
 };
-
-export default config;
