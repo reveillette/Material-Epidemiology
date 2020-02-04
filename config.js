@@ -5,7 +5,7 @@ var config = {
     theme: 'dark',
     alignment: 'left',
     title: 'Material Epidemiology',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    subtitle: 'Critical Mapping of Spatial Practices of Racialization and Health',
     byline: '',
     footer: 'Credits: Jeana Ripple (Associate Professor of Architecture, University of Virginia), Andrea Hansen Phillips (Assistant Professor of Landscape Architecture, University of Virginia)',
     chapters: [
